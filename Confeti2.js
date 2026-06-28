@@ -13,13 +13,13 @@ let alto2 = (canvasConfeti2.height = window.innerHeight);
 let confetis2 = [];
 
 const coloresConfeti2 = [
-  "rgba(255, 155, 170, 1)",
-  "rgba(224, 130, 144, 1)",
-  "rgba(251, 208, 214, 1)",
-  "rgba(248, 93, 116, 1)",
-  "rgba(246, 121, 139, 1)",
-  "rgba(238, 174, 184, 1)",
-  "rgba(255, 255, 255, 1)",
+  "rgba(255, 179, 71, 1)",   // naranja pastel
+  "rgba(240, 140, 60, 1)",   // naranja medio
+  "rgba(200, 230, 180, 1)",  // verde cremita claro
+  "rgba(150, 200, 130, 1)",  // verde cremita medio
+  "rgba(255, 210, 140, 1)",  // naranja muy suave
+  "rgba(220, 245, 210, 1)",  // verde muy claro
+  "rgba(255, 255, 255, 1)",  // blanco
 ];
 
 function crearConfeti2() {
