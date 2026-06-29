@@ -59,6 +59,12 @@
   left: 145px;
 }
 
+.vela-overlay {
+  transform: scale(0.75);
+  bottom: 94px;
+  left: 145px;
+}
+
 .llama {
   bottom: 160px;
   left: 142px;

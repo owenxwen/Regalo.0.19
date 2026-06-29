@@ -6,6 +6,11 @@ window.oncontextmenu = function () {
   return false;
 };
 
+window.addEventListener("resize", () => {
+  ancho = canvasConfeti.width = window.innerWidth;
+  alto = canvasConfeti.height = window.innerHeight;
+});
+
 const canvasConfeti = document.getElementById("canvas1"); //Lienzo
 const ctxConfeti = canvasConfeti.getContext("2d"); // Funciones
 

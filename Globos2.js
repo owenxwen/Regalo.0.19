@@ -4,6 +4,11 @@ window.oncontextmenu = function () {
   return false;
 };
 
+window.addEventListener("resize", () => {
+  ancho4 = canvasGlobos2.width = window.innerWidth;
+  alto4 = canvasGlobos2.height = window.innerHeight;
+});
+
 const canvasGlobos2 = document.getElementById("canvas4");
 const ctxGlobos2 = canvasGlobos2.getContext("2d");
 
