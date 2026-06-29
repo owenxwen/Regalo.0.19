@@ -324,7 +324,7 @@ body {
 /* Base de la caja */
 .regalos {
   animation: base 1.5s ease-in-out infinite;
-  background: linear-gradient(#fe3f3f, #fe3f3f) 50% 50% / 32px 100% no-repeat, #e9e3e3;
+  background: linear-gradient(#fe3f3f, #fe3f3f) 50% 50% / 32px 100% no-repeat, #efe8df;
   border-radius: 16px;
   bottom: 0;
   left: calc(50% - 60.2px);
@@ -336,7 +336,7 @@ body {
 
 .regalo {
   animation: techo 1.5s ease-in-out infinite;
-  background: linear-gradient(#fe3f3f, #fe3f3f) 50% 50% / 32px 101% no-repeat, #efffee;
+  background: linear-gradient(#fe3f3f, #fe3f3f) 50% 50% / 32px 101% no-repeat, #e9e3e3;
   bottom: 77px;
   left: calc(50% - 66.5px);
   width: 133px;
