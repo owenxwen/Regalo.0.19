@@ -31,7 +31,7 @@
 /*Mensaje*/
 .happy-birthday {
   top: -100%;
-  left: 120px;
+  left: 140px;
 }
 
 /*Objetos de la mesa*/
@@ -68,8 +68,8 @@
   }
 
   .happy-birthday {
-    top: -60%;
-    left: 120px;
+    top: -90%;
+    left: 140px;
   }
 }
 
@@ -199,7 +199,7 @@
 
   .happy-birthday {
     top: -80%;
-    left: 130px;
+    left: 155px;
   }
 }
 
