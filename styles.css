@@ -1,5 +1,5 @@
 html {
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden; 
 }
 
@@ -634,6 +634,25 @@ body {
   z-index: 3;
 }
 
+/* Serpentinas */
+#canvas5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  pointer-events: none;
+  z-index: 2;
+}
+
+#canvas6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  pointer-events: none;
+  z-index: 0;
+}
+
 /* Galería de marcos */
 .galeria-marcos {
   position: relative;
@@ -736,4 +755,13 @@ body {
 
 :root {
   color-scheme: only light;
+}
+
+.base-mesa {
+  width: 65%;
+  height: 15px;
+  background-color: #4A4A4A;
+  position: relative;
+  margin: 1140px auto 0 auto;
+  z-index: 2;
 }

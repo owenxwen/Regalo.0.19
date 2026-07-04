@@ -11,6 +11,7 @@ window.addEventListener("resize", () => {
 
 const canvasGlobos2 = document.getElementById("canvas4");
 const ctxGlobos2 = canvasGlobos2.getContext("2d");
+const sonidoPop = new Audio("recursos/pop.mp3");
 
 let ancho4 = (canvasGlobos2.width = window.innerWidth);
 let alto4 = (canvasGlobos2.height = document.body.scrollHeight);
@@ -29,11 +30,12 @@ const coloresGlobos2 = [
 ];
 
 function crearGlobos2() {
-  const cantidad = 40;
+  const cantidad = 25;
   for (let i = 0; i < cantidad; i++) {
+    const enPantalla = i < 30; // los primeros 10 arrancan en pantalla
     globos2.push({
       x: Math.random() * ancho4,
-      y: Math.random() * alto4 + alto4,
+      y: enPantalla ? Math.random() * alto4 : Math.random() * alto4 + alto4,
       radioX: Math.random() * 15 + 20,
       radioY: Math.random() * 15 + 25,
       color: coloresGlobos2[Math.floor(Math.random() * coloresGlobos2.length)],
@@ -136,6 +138,8 @@ canvasGlobos2.addEventListener("click", (e) => {
           alpha: 1,
         })),
       });
+      const popSonido = sonidoPop.cloneNode();
+      popSonido.play();
       return false;
     }
     return true;

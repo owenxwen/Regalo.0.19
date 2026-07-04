@@ -83,6 +83,19 @@
     bottom: 99px;
     left: 145px;
   }
+
+  .marco-grande {
+    width: 160px;
+    height: 160px;
+  }
+
+  .foto-1, .foto-3, .foto-5, .foto-7, .foto-9 {
+    left: 20px;
+  }
+
+  .foto-2, .foto-4, .foto-6, .foto-8 {
+    right: 20px;
+  }
 }
 
 .llama {
@@ -91,10 +104,10 @@
 }
 
 .carta {
-  animation: none; /* Evitar mini zoom */
+  animation: none;
   transform: scale(0.8);
   transform-origin: center center;
-  margin: 0 auto; /* Centrar horizontalmente */
+  margin: 0 auto;
 }
 
 /* Banderetas mobile */
@@ -103,11 +116,23 @@
   height: 28px;
 }
 
-.cuerda {
-  top: 14px;
+/* Marcos grandes mobile */
+.marco-grande {
+  width: 100px;
+  height: 100px;
 }
 
-/* Nuevo media query para pantallas más pequeñas */
+.foto-1 { left: 80px;  top: 50px; }
+.foto-2 { right: 80px; top: 200px; }
+.foto-3 { left: 80px;  top: 350px; }
+.foto-4 { right: 80px; top: 500px; }
+.foto-5 { left: 80px;  top: 650px; }
+.foto-6 { right: 80px; top: 800px; }
+.foto-7 { left: 80px;  top: 950px; }
+.foto-8 { right: 80px; top: 1100px; }
+.foto-9 { left: 80px;  top: 1250px; }
+
+/* Pantallas más pequeñas */
 @media only screen and (max-width: 400px) {
 
   .soporte {
@@ -158,5 +183,3 @@
     transform: scale(0.7);
   }
 }
-
-
