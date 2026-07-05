@@ -110,7 +110,7 @@
     position: absolute;
     width: 520px;
     height: 100px;
-    bottom: 24%;
+    bottom: 50%;
     pointer-events: none;
     z-index: 3;
   }
