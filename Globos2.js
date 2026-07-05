@@ -139,6 +139,7 @@ canvasGlobos2.addEventListener("click", (e) => {
         })),
       });
       const popSonido = sonidoPop.cloneNode();
+      popSonido.volume = 0.5;
       popSonido.play();
       return false;
     }
