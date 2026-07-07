@@ -21,7 +21,7 @@ body {
 
 .soporte::before {
   width: 100px;
-  height: 800px;
+  height: 1410px;
   left: 50%;
   transform: translateX(-50%);
   top: 18px;
@@ -29,7 +29,7 @@ body {
 
 .soporte::after {
   width: 95px;
-  height: 800px;
+  height: 1410px;
   left: 85px;
 }
 
@@ -103,15 +103,16 @@ body {
   padding: 6px 6px 20px 6px;
 }
 
-.foto-1 { left: 10px;  top: 50px; }
-.foto-2 { right: 10px; top: 200px; }
-.foto-3 { left: 10px;  top: 350px; }
-.foto-4 { right: 10px; top: 500px; }
-.foto-5 { left: 10px;  top: 650px; }
-.foto-6 { right: 10px; top: 800px; }
-.foto-7 { left: 10px;  top: 950px; }
-.foto-8 { right: 10px; top: 1100px; }
-.foto-9 { left: 10px;  top: 1250px; }
+.foto-1 { left: 110px;  top: 60px; }
+.foto-2 { right: 110px; top: 210px; }
+.foto-3 { left: 110px;  top: 360px; }
+.foto-4 { right: 110px; top: 510px; }
+.foto-5 { left: 110px;  top: 660px; }
+.foto-6 { right: 110px; top: 810px; }
+.foto-7 { left: 110px;  top: 950px; }
+.foto-8 { right: 110px; top: 1110px; }
+.foto-9 { left: 110px;  top: 1260px; }
+
 
 /* Base de la mesa */
 .base-mesa {
