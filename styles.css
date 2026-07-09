@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #adebb3;
+  background-color: #c5edc8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,14 +65,14 @@ body {
 .soporte::after {
   content: "";
   position: absolute;
-  background-color: #adebb3;
+  background-color: #c5edc8;
   width: 95px;
   height: 2500px;
   border-radius: 30px 30px 0 0;
   left: 136px;
   top: 20px;
   z-index: 0;
-  box-shadow: 125px 0 #adebb3;
+  box-shadow: 125px 0 #c5edc8;
 }
 
 /*PortaRetrato*/
@@ -532,7 +532,7 @@ body {
     transform: translateX(-50%);
     font-family: 'Pacifico', cursive;
     font-size: 40px;
-    color: #ffd3a6;; 
+    color: #f4ebdd;; 
     user-select: none;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
     animation: flotar 2s ease-in-out infinite,
@@ -636,9 +636,11 @@ body {
 }
 
 .carta h2 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Georgia', serif;
+  font-style: italic;
   font-size: 28px;
-  color: #ff9d3d; 
+  line-height: 1.5;
+  color: #333; 
   margin-bottom: 16px;
   text-align: center;
 }
@@ -774,14 +776,14 @@ body {
   font-family: 'Pacifico', cursive;
   font-size: 20px;
   line-height: 1.25;
-  color: #ffd3a6;
+  color: #f4ebdd;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.18);
   z-index: 2;
 }
 
 .texto-marco::first-letter {
   font-size: 1.8em;
-  color: #ffd3a6;
+  color: #f4ebdd;
   line-height: 1;
 }
 
@@ -831,7 +833,7 @@ body {
   transform: rotate(-15deg);
   font-family: 'Pacifico', cursive;
   font-size: 38px;
-  color: #ffd3a6;
+  color: #f4ebdd;
   text-shadow: 
     -1px -1px 0 #000,
     -1px 1px  0 #000,
