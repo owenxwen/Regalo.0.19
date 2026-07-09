@@ -113,6 +113,21 @@ body {
 .foto-8 { right: 110px; top: 1110px; }
 .foto-9 { left: 110px;  top: 1260px; }
 
+.texto-marco {
+  width: 120px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.texto-1 { left: 230px; top: 85px; text-align: left; }
+.texto-2 { right: 230px; top: 235px; text-align: right; }
+.texto-3 { left: 230px; top: 385px; text-align: left; }
+.texto-4 { right: 230px; top: 535px; text-align: right; }
+.texto-5 { left: 230px; top: 685px; text-align: left; }
+.texto-6 { right: 230px; top: 835px; text-align: right; }
+.texto-7 { left: 230px; top: 975px; text-align: left; }
+.texto-8 { right: 230px; top: 1135px; text-align: right; }
+.texto-9 { left: 230px; top: 1285px; text-align: left; }
 
 /* Base de la mesa */
 .base-mesa {

@@ -759,6 +759,35 @@ body {
 .foto-8 { top: 1950px; right: -50px; transform: rotate(2deg); }
 .foto-9 { top: 2200px; left: -50px; transform: rotate(2deg); }
 
+.texto-marco {
+  position: absolute;
+  width: 220px;
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #ff9d3d;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.18);
+  z-index: 2;
+}
+
+.texto-marco::first-letter {
+  font-size: 1.8em;
+  color: #ff9d3d;
+  line-height: 1;
+}
+
+/* Textos reflejados: fotos izquierda -> texto derecha, fotos derecha -> texto izquierda */
+.texto-1 { top: 235px; left: 300px; text-align: left; }
+.texto-2 { top: 485px; right: 340px; text-align: right; }
+.texto-3 { top: 735px; left: 300px; text-align: left; }
+.texto-4 { top: 985px; right: 340px; text-align: right; }
+.texto-5 { top: 1235px; left: 300px; text-align: left; }
+.texto-6 { top: 1485px; right: 340px; text-align: right; }
+.texto-7 { top: 1735px; left: 300px; text-align: left; }
+.texto-8 { top: 1985px; right: 340px; text-align: right; }
+.texto-9 { top: 2235px; left: 300px; text-align: left; }
+
 .esquina {
   position: absolute;
   width: 20px;

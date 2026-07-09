@@ -123,3 +123,19 @@ body {
 .base-mesa {
   margin-top: 0;
 }
+
+.texto-marco {
+  width: 160px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.texto-1 { left: 220px; top: 105px; text-align: left; }
+.texto-2 { right: 220px; top: 255px; text-align: right; }
+.texto-3 { left: 220px; top: 505px; text-align: left; }
+.texto-4 { right: 220px; top: 655px; text-align: right; }
+.texto-5 { left: 220px; top: 905px; text-align: left; }
+.texto-6 { right: 220px; top: 1055px; text-align: right; }
+.texto-7 { left: 220px; top: 1305px; text-align: left; }
+.texto-8 { right: 220px; top: 1455px; text-align: right; }
+.texto-9 { left: 220px; top: 1705px; text-align: left; }
